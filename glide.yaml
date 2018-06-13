@@ -1,0 +1,7 @@
+package: utils
+import:
+- package: github.com/alecthomas/kingpin
+- package: github.com/forj-oss/forjj-modules
+  subpackages:
+  - trace
+- package: github.com/kvz/logstreamer
